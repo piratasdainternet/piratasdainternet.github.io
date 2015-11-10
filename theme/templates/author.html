@@ -1,0 +1,8 @@
+{% extends "index.html" %}
+
+
+{% block title %}{{ author }} - {{ super() }}{% endblock %}
+
+{% block content_title %}
+  <h2>Postagens de {{ author }}</h2>
+{% endblock %}

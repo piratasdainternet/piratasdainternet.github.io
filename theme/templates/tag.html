@@ -1,0 +1,8 @@
+{% extends "index.html" %}
+
+
+{% block title %}{{ tag }} - {{ super() }}{% endblock %}
+
+{% block content_title %}
+  <h2>Postagens com a tag {{ tag }}</h2>
+{% endblock %}

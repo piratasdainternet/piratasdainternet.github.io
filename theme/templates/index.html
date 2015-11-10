@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+  <section id="site-content">
+    {% block content_title %}
+    {% endblock %}
+
+    <ul class="articles">
+      {% for article in articles_page.object_list %}
+        <li>
+          <article>
+            {% include "article_header.html" %}
+            <div class="texto">{{ article.summary }}</div>
+          </article>
+        </li>
+      {% endfor %}
+    </ul>
+    {% if articles_page.has_other_pages() %}
+      {% include "pagination.html" %}
+    {% endif %}
+  </section>
+{% endblock %}

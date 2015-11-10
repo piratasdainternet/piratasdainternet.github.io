@@ -1,0 +1,8 @@
+{% extends "index.html" %}
+
+
+{% block title %}{{ category }} - {{ super() }}{% endblock %}
+
+{% block content_title %}
+  <h2>Postagens na categoria {{ category }}</h2>
+{% endblock %}

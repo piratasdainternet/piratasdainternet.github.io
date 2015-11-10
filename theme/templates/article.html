@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+
+{% block title %}{{ article.title|striptags }} - {{ super() }}{% endblock %}
+{% block head %}
+  {{ super() }}
+  {% if article.description %}
+    <meta name="description" content="{{ article.description }}">
+  {% endif %}
+
+  {% for tag in article.tags %}
+    <meta name="tags" content="{{ tag }}">
+  {% endfor %}
+{% endblock %}
+
+{% block content %}
+  <section id="site-content">
+    <article>
+      {% include "article_header.html" %}
+      <div class="texto">{{ article.content }}</div>
+    </article>
+  </section>
+{% endblock %}

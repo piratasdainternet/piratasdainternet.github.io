@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+  <head>
+    {% block head %}
+      <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternative" title="{{ SITENAME }} FULL ATOM FEED">
+      {% endif %}
+      {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternative" title="{{ SITENAME }} FULL RSS FEED">
+      {% endif %}
+      {% if FEED_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternative" title="{{ SITENAME }} ATOM FEED">
+      {% endif %}
+      {% if FEED_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternative" title="{{ SITENAME }} RSS FEED">
+      {% endif %}
+      {% if CATEGORY_FEED_ATOM and category %}
+        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categorias ATOM FEED">
+      {% endif %}
+      {% if CATEGORY_FEED_RSS and category %}
+        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categorias RSS FEED">
+      {% endif %}
+      {% if TAG_FEED_ATOM and tag %}
+        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags ATOM FEED">
+      {% endif %}
+      {% if TAG_FEED_RSS and tag %}
+        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS FEED">
+      {% endif %}
+
+      <link rel="stylesheet" href="{{ SITEURL }}/theme/css/normalize.css">
+      <link rel="stylesheet" href="{{ SITEURL }}/theme/css/site.css">
+    {% endblock head %}
+  </head>
+  <body>
+    <div id="main">
+      <header id="site-header">
+        <a href="{{ SITEURL }}/"><img src="{{ SITEURL }}/images/banner.jpg" alt="Piratas da Internet"></a>
+      </header>
+      <nav id="site-nav">
+        <ul>
+          {% for cat, null in categories %}
+          <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      {% block content %}
+      {% endblock %}
+      {% if LINKS %}
+        <footer>
+          <div class="blogroll">
+            <h2>Links</h2>
+            <ul>
+              {% for name, link in LINKS %}
+                <li><a href="{{ link }}" target="_blank">{{ name }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </footer>
+      {% endif %}
+    </div>
+  </body>
+</html>
