@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Piratas da Internet</title><link href="http://piratasdainternet.github.io/" rel="alternate"></link><link href="http://piratasdainternet.github.io/feeds/noticias.atom.xml" rel="self"></link><id>http://piratasdainternet.github.io/</id><updated>2015-03-24T00:00:00-03:00</updated><entry><title>Hack 'n' Cast é atacado por piratas</title><link href="http://piratasdainternet.github.io/participacao-hackncast.html" rel="alternate"></link><updated>2015-03-24T00:00:00-03:00</updated><author><name>Eduardo Klosowski</name></author><id>tag:piratasdainternet.github.io,2015-03-24:participacao-hackncast.html</id><summary type="html">&lt;p&gt;No dia de ontem (23, segunda-feira) o podcast conhecido pelo nome de Hack 'n' Cast foi atacado por piratas. Com direito a abertura sonora, Magnun e Ricardo cederam espaço para Eduardo e Fabio conversarem sobre uma falha de HD e o hack feito para identificar os arquivos perdidos.&lt;/p&gt;
+&lt;p&gt;Microfones gravaram o áudio da ação que se encontra disponível na internet no site Mind Bending (&lt;a class="reference external" href="http://mindbending.org/pt/hack-n-cast-v012-sobrevivendo-a-uma-falha-de-hd"&gt;http://mindbending.org/pt/hack-n-cast-v012-sobrevivendo-a-uma-falha-de-hd&lt;/a&gt;), inclusive incentivando mais ações deste tipo.&lt;/p&gt;
+&lt;p&gt;Infelizmente o evento teve duas vítimas fatais e outra em estado terminar, identificadas como os HDs dos participantes. Nenhum dos integrantes do Hack 'n' Cast está sendo feito de refém e devem publicar materiais gravados do ano passado nos próximos episódios.&lt;/p&gt;
+</summary><category term="hack'n'cast"></category></entry><entry><title>Olá Internet!</title><link href="http://piratasdainternet.github.io/sobre.html" rel="alternate"></link><updated>2014-06-03T00:00:00-03:00</updated><author><name>Fabio Rodriguez</name></author><id>tag:piratasdainternet.github.io,2014-06-03:sobre.html</id><summary type="html">&lt;div class="section" id="sejam-bem-vindos-ao-site-piratas-da-internet"&gt;
+&lt;h2&gt;Sejam bem vindos ao site &lt;strong&gt;Piratas da Internet&lt;/strong&gt;!&lt;/h2&gt;
+&lt;p&gt;Esta iniciativa nasceu da ideia de quatro amigos que decidiram gravar um &lt;a class="reference external" href="http://pt.wikipedia.org/wiki/Podcast"&gt;podcast&lt;/a&gt; sobre tecnologia e atualidades. Já que iríamos gravar, precisávamos hospedar. Se vamos hospedar, precisamos de um domínio.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mas-por-que-piratas-da-internet"&gt;
+&lt;h2&gt;Mas por que Piratas da Internet?&lt;/h2&gt;
+&lt;p&gt;O nome do site e do podcast vem do filme &lt;a class="reference external" href="http://pt.wikipedia.org/wiki/Pirates_of_Silicon_Valley"&gt;Pirates of Silicon Valley&lt;/a&gt;. Um dos títulos cogitados pela tradução do filme era exatamente o &lt;strong&gt;Piratas da Internet&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Devido a bizarrice do título, acreditamos que seria perfeitamente alinhado com o nosso conteúdo, que apesar de relevante não deve jamais perder sua dose de humor.&lt;/p&gt;
+&lt;p&gt;Esperamos sinceramente que gostem do nosso trabalho.&lt;/p&gt;
+&lt;p&gt;Até a próxima!&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry></feed>
