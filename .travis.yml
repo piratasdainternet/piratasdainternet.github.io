@@ -1,0 +1,15 @@
+branches:
+  only:
+    - pelican
+language: python
+before_install:
+  - openssl aes-256-cbc -K $encrypted_59b4ebfa30c3_key -iv $encrypted_59b4ebfa30c3_iv -in publish-key.enc -out ~/.ssh/publish-key -d
+  - chmod 600 ~/.ssh/publish-key
+  - echo -e 'Host github.com\n  IdentityFile ~/.ssh/publish-key' >> ~/.ssh/config
+  - git remote set-url origin git@github.com:piratasdainternet/piratasdainternet.github.io.git
+  - git fetch origin -f master:master
+install:
+  - pip install -U pip
+  - pip install -U -r requirements.txt
+script:
+  - make github
