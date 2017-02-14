@@ -1,11 +1,11 @@
 Piratas da Internet Podcast - ESPECIAL - Ataques de DNS!
-====================================================================
+========================================================
 
 :authors: Fabio Rodriguez
 :date: 2017-02-14 21:00
 :category: Podcast
 :tags: Linux, Dns, Attack
-:slug: ep-xx
+:slug: ep-espx1
 
 
 .. _OGG: https://archive.org/download/piratas-especial01-dns/piratas-especial01-dns.ogg
@@ -45,22 +45,16 @@ Download do Podcast em OGG_ ou MP3_
 
 Não se esqueça de nos dar um **feedback**, é muito importante para nós!
 
+
 Links do episódio
 -----------------
 
-.. raw:: html
-
-http://labs.siteblindado.com/2016/01/como-evitar-ataques-no-servidor-dns.html
-
-https://github.com/EFForg/https-everywhere/pull/4538
-
-https://www.tecmundo.com.br/seguranca/30366-senha-do-banco-central-da-franca-era-123456-.htm
-
-http://www.linhadefensiva.org/2012/03/criminosos-alteram-dns-de-modems-usando-falha-para-realizar-fraudes/
-
-http://www.techtudo.com.br/noticias/noticia/2012/07/fbi-vai-desconectar-milhares-de-computadores-infectados-com-o-virus-dnschanger.html
-
-https://www.eff.org/https-everywhere
+- http://labs.siteblindado.com/2016/01/como-evitar-ataques-no-servidor-dns.html
+- https://github.com/EFForg/https-everywhere/pull/4538
+- https://www.tecmundo.com.br/seguranca/30366-senha-do-banco-central-da-franca-era-123456-.htm
+- http://www.linhadefensiva.org/2012/03/criminosos-alteram-dns-de-modems-usando-falha-para-realizar-fraudes/
+- http://www.techtudo.com.br/noticias/noticia/2012/07/fbi-vai-desconectar-milhares-de-computadores-infectados-com-o-virus-dnschanger.html
+- https://www.eff.org/https-everywhere
 
 
 Contatos
