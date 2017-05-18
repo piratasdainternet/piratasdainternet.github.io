@@ -6,6 +6,7 @@ Piratas da Internet Podcast - S02E01 Games que fracassaram no Linux!
 :category: Podcast
 :tags: Fail, Games
 :slug: ep-2x1
+:podcast: https://archive.org/download/piratasS02E01/piratasS02E01.mp3
 
 
 .. _OGG: https://archive.org/download/piratasS02E01/piratasS02E01.ogg

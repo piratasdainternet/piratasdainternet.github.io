@@ -6,6 +6,7 @@ Piratas da Internet Podcast - 0x8 Latinoware 2014
 :category: Podcast
 :tags: Evento
 :slug: ep-0x8
+:podcast: https://archive.org/download/piratas09/piratas09.mp3
 
 
 .. _OGG: https://archive.org/download/piratas09/piratas09.ogg

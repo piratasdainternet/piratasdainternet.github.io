@@ -6,6 +6,7 @@ Piratas da Internet Podcast - 0x6 Certificações Linux
 :category: Podcast
 :tags: Linux
 :slug: ep-0x6
+:podcast: https://archive.org/download/piratas07/piratas07.mp3
 
 
 .. _OGG: https://archive.org/download/Piratas07/Piratas07.ogg

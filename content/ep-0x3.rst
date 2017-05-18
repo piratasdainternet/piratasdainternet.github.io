@@ -6,6 +6,7 @@ Piratas da Internet Podcast - 0x3 Systemd
 :category: Podcast
 :tags: Linux
 :slug: ep-0x3
+:podcast: https://archive.org/download/piratas03/piratas03.mp3
 
 
 .. _OGG: https://archive.org/download/piratas03/piratas03.ogg

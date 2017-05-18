@@ -6,6 +6,7 @@ Piratas da Internet Podcast - 0x4 Distribuições Linux - Parte 2
 :category: Podcast
 :tags: Linux
 :slug: ep-0x4p2
+:podcast: https://archive.org/download/piratas04-p2/piratas04-p2.mp3
 
 
 .. _OGG: https://archive.org/download/piratas04-p2/piratas04-p2.ogg

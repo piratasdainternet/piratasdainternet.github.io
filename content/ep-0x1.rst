@@ -6,6 +6,7 @@ Piratas da Internet Podcast - 0x1 Bitcoin
 :category: Podcast
 :tags: Bitcoin
 :slug: ep-0x1
+:podcast: https://archive.org/download/piratas01/piratas01.mp3
 
 
 .. _OGG: https://archive.org/download/piratas01/piratas01.ogg

@@ -6,6 +6,7 @@ Piratas da Internet Podcast - 0x0 Piloto
 :category: Podcast
 :tags:
 :slug: ep-0x0
+:podcast: https://archive.org/download/piratas0/piratas0.mp3
 
 
 .. _OGG: https://archive.org/download/piratas0/piratas0.ogg

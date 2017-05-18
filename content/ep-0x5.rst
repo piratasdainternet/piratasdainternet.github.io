@@ -6,6 +6,7 @@ Piratas da Internet Podcast - 0x5 Softwares para Linux
 :category: Podcast
 :tags: Featured, Linux
 :slug: ep-0x5
+:podcast: https://archive.org/download/Piratas05/Piratas05.mp3
 
 
 .. _OGG: https://archive.org/download/Piratas05/Piratas05.ogg

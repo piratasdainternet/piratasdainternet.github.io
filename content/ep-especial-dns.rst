@@ -6,6 +6,7 @@ Piratas da Internet Podcast - ESPECIAL - Ataques de DNS!
 :category: Podcast
 :tags: Linux, Dns, Attack
 :slug: ep-espx1
+:podcast: https://archive.org/download/piratas-especial01-dns/piratas-especial01-dns.mp3
 
 
 .. _OGG: https://archive.org/download/piratas-especial01-dns/piratas-especial01-dns.ogg

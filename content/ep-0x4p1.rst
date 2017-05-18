@@ -6,6 +6,7 @@ Piratas da Internet Podcast - 0x4 Distribuições Linux - Parte 1
 :category: Podcast
 :tags: Linux
 :slug: ep-0x4p1
+:podcast: https://archive.org/download/piratas04-p1/piratas04-p1.mp3
 
 
 .. _OGG: https://archive.org/download/piratas04-p1/piratas04-p1.ogg

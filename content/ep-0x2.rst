@@ -6,6 +6,7 @@ Piratas da Internet Podcast - 0x2 Jogos no Linux
 :category: Podcast
 :tags: Games, Linux
 :slug: ep-0x2
+:podcast: https://archive.org/download/piratas02/piratas02.mp3
 
 
 .. _OGG: https://archive.org/download/piratas02/piratas02.ogg

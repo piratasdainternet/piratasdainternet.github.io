@@ -6,6 +6,7 @@ Piratas da Internet Podcast - 0x7 Virtualização - Parte 1
 :category: Podcast
 :tags: Virtualização
 :slug: ep-0x7p1
+:podcast: https://archive.org/download/piratas08-p1/piratas08-p1.mp3
 
 
 .. _OGG: https://archive.org/download/piratas08-p1/piratas08-p1.ogg
